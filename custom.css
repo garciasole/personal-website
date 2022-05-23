@@ -1,0 +1,40 @@
+
+    body{
+    font-family: 'montserrat';
+    background-color: #ECECEC;
+}
+
+.h1-custom{
+    font-family: 'syne', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    }
+h2{
+    font-family: 'syne', sans-serif;
+    font-weight: 900;
+    }
+.subtitle-custom{
+    color: #fe8282;
+}
+#nav-logo-custom{
+    font-family: 'Syne', sans-serif;
+    font-weight: 900;
+    color:#fe8282;
+}
+.nav-item:hover {
+    opacity: 0.8;
+  }
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    color: #001097;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .bold-link{
+      color: #001097;
+      font-weight: bold;
+  }
