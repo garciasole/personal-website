@@ -21,6 +21,7 @@ h2{
     font-family: 'Syne', sans-serif;
     font-weight: 900;
     color:#fe8282;
+    text-decoration: none;
 }
 .nav-item:hover {
     opacity: 0.8;
