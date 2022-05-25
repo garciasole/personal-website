@@ -25,21 +25,22 @@ h2{
 .nav-item:hover {
     opacity: 0.8;
   }
-.fa {
+.fa-head {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
     color: #001097;
   }
   
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
-  }
-  .bold-link{
-      color: #001097;
-      font-weight: bold;
-  }
-  .h3-custom{
+ }
+.bold-link{
+    color: #001097;
+    font-weight: bold;
+    text-decoration: none
+}
+.h3-custom{
     font-family: 'syne', sans-serif;
     font-weight: 900;
     font-size: 1rem;
@@ -47,4 +48,19 @@ h2{
 .icon-custom{
         fill:#fe8282;
 }
+
+.bold-link-footer{
+    color: #fe8282;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bold-link-footer:hover {
+    opacity: 0.8;
+  }
+.fa-footer {
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    color: #fe8282;
+  }
 
