@@ -1,5 +1,5 @@
 
-    body{
+body{
     font-family: 'montserrat';
     background-color: #ECECEC;
     width: 100%;
@@ -24,20 +24,13 @@ h2{
     text-decoration: none;
     font-size: larger;
 }
-.nav-item:hover {
-    opacity: 0.8;
-  }
+
 .fa-head {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
     color: #001097;
   }
-  
-.fa:hover {
-    opacity: 0.7;
- }
-
 .bold-link{
     color: #001097;
     font-weight: bold;
@@ -49,7 +42,7 @@ h2{
     font-size: 1rem;
 }
 .icon-custom{
-        fill:#fe8282;
+    fill:#fe8282;
 }
 
 .bold-link-footer{
@@ -66,4 +59,10 @@ h2{
     text-decoration: none;
     color: #fe8282;
   }
+.fa-footer:hover {
+    color: #ffa3a3;
+    }
+.bold-link-footer:hover {
+    color: #ffa3a3;
+    }
 
