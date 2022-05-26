@@ -2,7 +2,7 @@
 body{
     font-family: 'montserrat';
     background-color: #ECECEC;
-    width: 100%;
+    max-width: 100%;
 }
 
 .h1-custom{
@@ -38,8 +38,7 @@ h2{
 }
 .h3-custom{
     font-family: 'syne', sans-serif;
-    font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .icon-custom{
     fill:#fe8282;
