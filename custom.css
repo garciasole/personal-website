@@ -68,3 +68,12 @@ h2{
   }
 
 /* Career page styles*/ 
+.text-keywords{
+    color: #fe8282;
+    font-family: 'syne';
+}
+.gradient-custom{
+    width: 100%;
+    background: rgb(0,16,151);
+    background: linear-gradient(180deg, rgba(0,16,151,0.7964227927499125) 7%, rgba(254,130,130,0.8580474426098564) 100%);
+}
