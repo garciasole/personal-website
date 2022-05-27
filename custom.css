@@ -1,4 +1,4 @@
-
+/* General style */ 
 body{
     font-family: 'montserrat';
     background-color: #ECECEC;
@@ -25,12 +25,6 @@ h2{
     font-size: larger;
 }
 
-.fa-head {
-    font-size: 30px;
-    width: 50px;
-    text-decoration: none;
-    color: #001097;
-  }
 .bold-link{
     color: #001097;
     font-weight: bold;
@@ -39,9 +33,6 @@ h2{
 .h3-custom{
     font-family: 'syne', sans-serif;
     font-size: 1.5rem;
-}
-.icon-custom{
-    fill:#fe8282;
 }
 
 .bold-link-footer{
@@ -65,3 +56,15 @@ h2{
     color: #ffa3a3;
     }
 
+/* Home page styles*/ 
+.icon-custom{
+    fill:#fe8282;
+}
+.fa-head {
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    color: #001097;
+  }
+
+/* Career page styles*/ 
