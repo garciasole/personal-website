@@ -1,17 +1,17 @@
 /* General style */ 
 body{
     font-family: 'montserrat';
-    background-color: #f4e4d5;
+    background-color: #e1e1e1;
     max-width: 100%;
 }
  /*Navbar*/
 #nav-link-custom{
-    color: #0018E3;
+    color: white;
 }
 #nav-logo-custom{
     font-family: 'Syne', sans-serif;
     font-weight: 900;
-    color:#f03551;
+    color:#f7657b;
     text-decoration: none;
     font-size: larger;
 }
@@ -27,7 +27,7 @@ h2{
     font-weight: 900;
     }
 .subtitle-custom{
-    color: #f03551;
+    color: #f7657b;
 }
 .h3-custom{
     font-family: 'syne', sans-serif;
@@ -36,56 +36,59 @@ h2{
 
 /*Links*/
 .bold-link{
-    color: #0018E3;
+    color: #0012ab;
     font-weight: bold;
     text-decoration: none
 }
 .bold-link:hover{
-    color: #f03551;
+    color: #f7657b;
 }
 .bold-link-footer{
-    color: white;
+    color: #f7657b;
     font-weight: bold;
     text-decoration: none;
 }
 .bold-link-footer:hover{
-    color: #f03551;
+    color: white;
+    opacity: 0.8;
 }
 
 
 /*Icons and social media*/
 
 .icon-custom{
-    fill:#0018E3;
+    fill:#0012ab;
 }
 .fa-head {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
-    color: #0018E3;
+    color: #0012ab;
   }
 .fa-head:hover{
-    color: #f03551;
+    color: #f7657b;
 }
   .fa-footer {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
-    color: white;
+    color: #f7657b;
   }
 .fa-footer:hover {
-    color: #f03551;
+    color:white;
+    opacity: 0.8;
     }
 
 #profile-pic{
     background-color: white;
-    border: 2px solid #0018E3;
+    border: 2px solid #0012ab;
     border-radius: 50%;
-    width: 20%;
-    height: 20%;
+    max-width: 250px;
+    width:100%;
+    height: auto;
 }
 
 /** Footer**/
 #footer{
-    background-color: #0018E3;
+    background-color: black;
 }
