@@ -1,70 +1,91 @@
 /* General style */ 
 body{
     font-family: 'montserrat';
-    background-color: #ECECEC;
+    background-color: #f4e4d5;
     max-width: 100%;
 }
-
+ /*Navbar*/
+#nav-link-custom{
+    color: #0018E3;
+}
+#nav-logo-custom{
+    font-family: 'Syne', sans-serif;
+    font-weight: 900;
+    color:#f03551;
+    text-decoration: none;
+    font-size: larger;
+}
+/*Titles*/
 .h1-custom{
     font-family: 'syne', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
+    color: white;
     }
 h2{
     font-family: 'syne', sans-serif;
     font-weight: 900;
     }
 .subtitle-custom{
-    color: #fe8282;
-}
-#nav-logo-custom{
-    font-family: 'Syne', sans-serif;
-    font-weight: 900;
-    color:#fe8282;
-    text-decoration: none;
-    font-size: larger;
-}
-
-.bold-link{
-    color: #001097;
-    font-weight: bold;
-    text-decoration: none
+    color: #f03551;
 }
 .h3-custom{
     font-family: 'syne', sans-serif;
     font-size: 1.5rem;
 }
 
+/*Links*/
+.bold-link{
+    color: #0018E3;
+    font-weight: bold;
+    text-decoration: none
+}
+.bold-link:hover{
+    color: #f03551;
+}
 .bold-link-footer{
-    color: #fe8282;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
-.bold-link-footer:hover {
-    opacity: 0.8;
-  }
-.fa-footer {
-    font-size: 30px;
-    width: 50px;
-    text-decoration: none;
-    color: #fe8282;
-  }
-.fa-footer:hover {
-    color: #ffa3a3;
-    }
-.bold-link-footer:hover {
-    color: #ffa3a3;
-    }
+.bold-link-footer:hover{
+    color: #f03551;
+}
 
-/* Home page styles*/ 
+
+/*Icons and social media*/
+
 .icon-custom{
-    fill:#fe8282;
+    fill:#0018E3;
 }
 .fa-head {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
-    color: #001097;
+    color: #0018E3;
   }
+.fa-head:hover{
+    color: #f03551;
+}
+  .fa-footer {
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    color: white;
+  }
+.fa-footer:hover {
+    color: #f03551;
+    }
 
+#profile-pic{
+    background-color: white;
+    border: 2px solid #0018E3;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
 
+/** Footer**/
+#footer{
+    background-color: #0018E3;
+}

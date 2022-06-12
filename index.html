@@ -14,15 +14,30 @@
 </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      
+    <nav class="navbar navbar-expand-lg d-flex fixed-top pt-3 pb-3 p-4 ">
+      <a class="navbar-brand" id="nav-logo-custom" href="index.html">Sole Garcia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link"id="nav-link-custom" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-custom" href="about.html">About</a>
+          </li>
+        </ul>
         
-    <nav class="navbar-fluid d-flex justify-content-between fixed-top bg-black pt-3 pb-3 p-4">
-        <a class="nav-link" id="nav-logo-custom"  href="index.html">SG</a>
-        <a class="nav-link text-white" href="about.html">About</a>  
-</nav>
+      </div>
+    </nav>
+
     
         <div class="container-fluid text-center mt-5">
-            <h1 class="h1-custom mt-4 pb-2 pt-4 text-white"> HELLO </h1>
-            <p class="subtitle-custom m-0 pb-2">I am <strong>Sole Garcia</strong>, a digital marketer that aims to combine performance with creative branding...</p>
+            <h1 class="h1-custom mt-4 pb-2"> HELLO </h1>
+            <p class="subtitle-custom m-0 pb-2">I am <strong>Sole Garcia</strong>, a digital marketer that aims to combine performance with creative branding.</p>
         </div>
         <div class="container-fluid mt-3 row justify-content-center text-around m-0 p-0" id="social-links">
             <a href="https://www.linkedin.com/in/solegarciafernandez/" class="fa fa-head fa-linkedin text-center"></a>
@@ -32,8 +47,8 @@
             <a href="mailto:gfsoled@gmail.com" class="fa fa-head fa-google text-center"></a>
         </div>
         <div class="container-fluid row align-items-center justify-content-center">
-            <img src="https://i.ibb.co/z4GxsvQ/profile-pic-2-removebg-preview.png" alt="profile-pic" class="col-md-3 mb-4">
-            <div class="col-md-6 text-center">
+            <img id="profile-pic"src="https://i.ibb.co/1XyWn3X/IMG-20211212-201741-removebg-preview.png" alt="profile-pic" class="m-4" >
+            <div class="col-md-5">
             <p class="text-left pb-2">After some years in marketing, I've discover my passion: 
                 <br><strong>Understand people’s behavior.</strong>
                 <br><br> That's why I focus on a strong creative message, promote it with a clear objective and measure it with the correct KPIs. 
@@ -195,7 +210,7 @@
                 <p class="text-center pt-5"> If you want more technical info about my career check my 
                     <a class="bold-link" href="https://drive.google.com/file/d/1fr4Who4oTttrWmS5yDm2MDIFWGbZVUsI/view?usp=sharing" target=_blank >resume</a>.
             </div>
-        <footer class="container-fluid bg-black text-white mt-5">
+        <footer class="container-fluid mt-5 text-white" id="footer">
             <h3 class="h3-custom pt-4 pb-2 text-center">Contact</h3>
             <p class="text-center"> If you'd like to get in touch, consider writing an 
                 <a class="bold-link-footer"href="mailto:gfsoled@gmail.com">email</a> or sending a message through 
