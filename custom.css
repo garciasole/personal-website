@@ -1,33 +1,37 @@
 /* General style */ 
 body{
-    font-family: 'montserrat';
+    font-family: 'Roboto', 'sans-serif';
     background-color: #F5F5F5;
     max-width: 100%;
 }
  /*Navbar*/
-#nav-link-custom{
-    color: white;
+
+#navbar-container{
+margin:2rem 2rem 0px 2rem;
+width: 600px;
+height: 60px;
+background: #FFFFFF;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
 }
-#nav-logo-custom{
-    font-family: 'Syne', sans-serif;
-    font-weight: 900;
-    color:#f7657b;
-    text-decoration: none;
-    font-size: larger;
-}
+
 /*Titles*/
 .h1-custom{
-    font-family: 'syne', sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;    
+    margin-top:160px;
     }
-h2{
-    font-family: 'syne', sans-serif;
-    font-weight: 900;
-    }
-.subtitle-custom{
-    color: #f7657b;
+.h2-custom{
+    font-family: 'montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;    
+    background: linear-gradient(90deg, #21004B 2.92%, #7000FF 96.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 .h3-custom{
     font-family: 'syne', sans-serif;
@@ -57,22 +61,22 @@ h2{
 /*Icons and social media*/
 
 .icon-custom{
-    fill:#0012ab;
+    fill:#7000FF;
 }
 .fa-head {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
-    color: #0012ab;
+    color: #7000FF;
   }
 .fa-head:hover{
-    color: #f7657b;
+    color: #7000FF;
 }
   .fa-footer {
     font-size: 30px;
     width: 50px;
     text-decoration: none;
-    color: #f7657b;
+    color: #7000FF;
   }
 .fa-footer:hover {
     color:white;
@@ -80,8 +84,6 @@ h2{
     }
 
 #profile-pic{
-    background-color: white;
-    border: 2px solid #0012ab;
     border-radius: 50%;
     width: 200px;
     height: 200px;
