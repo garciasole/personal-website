@@ -95,26 +95,40 @@ text-fill-color: transparent;
 #description-box{
     background: #FFFFFF;
     border: 1px solid;
-    margin: 4rem;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 4rem;
     border-image-source: linear-gradient(180deg, #000000 100%, #7000FF 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
 }
 #box-container{
-    margin: 4rem
+    margin: 2rem;
+    display:flex;
+    gap:1rem;
+    justify-content: center;
 }
 #custom-box{
     background: #FFFFFF;
-    width: 50%;
+    width: 31%;
     height: 150px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
+
 }
 
 /*Images*/
 #image-shop{
     width: 70px;
 }
+#image-mapmelon{
+    width: 70px;
+}
+#image-buildpublic{
+    width: 70px;
+}
+
+
 
 
 /** Footer**/
